@@ -19,7 +19,7 @@ int _strlen_recur(char *s)
  */
 int palindrom_checker(char *s, int i, int f)
 {
-	if (s[f] == s[f])
+	if (s[i] == s[f])
 		if (i > f / 2)
 			return (1);
 		else
